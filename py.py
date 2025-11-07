@@ -15,7 +15,7 @@ ydl_opts = {
 }
 
 # URL של הסרטון להורדה
-video_url = input("https://www.youtube.com/watch?v=OkZ30zLdHTY")
+video_url = ("https://www.youtube.com/watch?v=OkZ30zLdHTY")
 
 # הורדת הסרטון
 with YoutubeDL(ydl_opts) as ydl:
