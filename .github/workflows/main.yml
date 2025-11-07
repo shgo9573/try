@@ -25,3 +25,5 @@ jobs:
 
     - name: Run Python script
       run: python py.py
+      env:
+        COOKIES_PATH: ${{ secrets.COOKIES_PATH }}
